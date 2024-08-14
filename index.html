@@ -2,326 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css" integrity="sha512-MqL4+Io386IOPMKKyplKII0pVW5e+kb+PI/I3N87G3fHIfrgNNsRpzIXEi+0MQC0sR9xZNqZqCYVcC61fL5+Vg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./style/style.css">
-    <title>My Portfolio</title>
-
+    <link rel="stylesheet" href="CSS/test.css">
+    <title>Expenses</title>
 </head>
 <body>
-    <!-- ============================== header =================================== -->
-    <header class="header blur-header" id="header">
-        <nav class="nav container">
-            <a href="#" class="nav__logo">Gopi Shankar V</a>
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li>
-                        <a href="#home" class="nav__link active-link">Home</a>
-                    </li>
-                    <li>
-                        <a href="#work" class="nav__link">Work</a>
-                    </li>
-                    <li>
-                        <a href="#info" class="nav__link">My Info</a>
-                    </li>
-                    <li>
-                        <a href="#services" class="nav__link">Services</a>
-                    </li>
-                    <li>
-                        <a href="#contact" class="nav__link">Contact Me</a>
-                    </li>
-                </ul>
-
-                <!-- Close button -->
-                <div class="nav__close" id="nav-close">
-                    <i class="ri-close-large-line"></i>
-                </div>
-            </div>
-
-            <div class="nav__toggle" id="nav-toggle">
-                <i class="ri-menu-5-line"></i>
-            </div>
-        </nav>
-    </header>
-    <!-- ============================== main =================================== -->
-    <main class="main">
-        <!-- ============================== home =================================== -->
-
-        <section class="home section" id="home">
-            <div class="home__container container grid">
-                <img src="./img/young-man.png" alt="image" class="home__img">
-
-                <div class="home__data">
-                    <h1 class="home__name">Gopi <br>Shankar</h1>
-                    <h3 class="home__profession"> Web Developer</h3>
-                </div>
-
-                <a href="#work" class="home__scroll">
-                    <div class="home__scroll-box">
-                        <i class="ri-arrow-down-line"></i>
-                    </div>
-
-                    <span class="home__scroll-text">Recent Works</span>
-                </a>
-            </div>
-        </section>
-
-        <!-- ============================== work =================================== -->
-        <section class="work section" id="work">
-            <h2 class="section__title">My Projects</h2>
-
-            <div class="work__container container grid">
-                
-
-                <article class="work__card">
-                    <a href="https://irudium-gs.github.io/Expense-Tracking/" target="_blank" class="work__link">
-                        <h2 class="work__title">Income & expenses Tracker</h2>
-                        <p class="work__description">📊 An intuitive income and expenses tracking website! Simply input your transactions with descriptions and amounts, whether it's a salary (+4000) or an expense (-400). 
-                            Stay organised effortlessly! Check it out here.</p>
-
-                        <img src="./img/Inc&epx.png" alt="image" class="work__img">
-
-                        <i class="ri-arrow-right-line"></i>
-                    </a>
-                </article>
-
-                <article class="work__card">
-                    <a href="#" target="_blank" class="work__link">
-                        <h2 class="work__title">Comming soon...</h2>
-                        <p class="work__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto possimus voluptates voluptatum.</p>
-
-                        <img src="./img/wallpaper_5.jpg" alt="image" class="work__img">
-
-                        <i class="ri-arrow-right-line"></i>
-                    </a>
-                </article>
-
-                <article class="work__card">
-                    <a href="#" target="_blank" class="work__link">
-                        <h2 class="work__title">Comming soon...</h2>
-                        <p class="work__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto possimus voluptates voluptatum.</p>
-
-                        <img src="./img/wallpaper_6.jpg" alt="image" class="work__img">
-
-                        <i class="ri-arrow-right-line"></i>
-                    </a>
-                </article>
-
-                <article class="work__card">
-                    <a href="#" target="_blank" class="work__link">
-                        <h2 class="work__title">Comming soon...</h2>
-                        <p class="work__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto possimus voluptates voluptatum.</p>
-
-                        <img src="./img/wallpaper_7.jpg" alt="image" class="work__img">
-
-                        <i class="ri-arrow-right-line"></i>
-                    </a>
-                </article>
-            </div>
-        </section>
-
-        <!-- ============================== info =================================== -->
-        <section class="info section" id="info">
-            <h2 class="section__title">MY INFO</h2>
-
-            <div class="info__container container grid">
-                <div class="about grid">
-                    <div class="about__content">
-                        <h3 class="info__title">About Me</h3>
-                        <p class="about__description">
-                            I am a dedicated web developer with a passion for creating aesthetically pleasing and <b>highly functional websites</b>. 
-                            With expertise in <b>responsive web design</b>. 
-                            In addition to my <b>web development</b> capabilities, I possess strong knowledge in PC building and computer hardware assembly. 
-                            This unique combination of skills allows me to deliver exceptional, <b>user-friendly websites</b> and <b>custom-built PC</b>s that consistently meet and exceed client expectations.
-                        </p>
-
-                        <a href="./Gopi Shankar Resume.pdf" download="" target="_blank" class="button about__button">Download CV</a>
-                    </div>
-
-                    <img src="./img/young-man_2.png" alt="image" class="about__img">
-                </div>
-
-                <div class="experience">
-                    <h3 class="info__title">experience</h3>
-
-                    <div class="experience__content grid">
-
-                        <div class="experience__data grid">
-                            <h2 class="experience__company">National Small Industry Corporation, Chennai</h2>
-                            <div>
-                                <h3 class="experience__profession">Web Development (Internship)</h3>
-                                <span class="experience__date">June 23 - July 23</span>
-                                <p class="experience__description">
-                                    During my web development internship at the National Small Industry Corporation in Chennai, 
-                                    I mastered the fundamentals of HTML, CSS, and JavaScript. I also earned a Responsive Web Design certificate from FreeCodeCamp. 
-                                    Applying my new skills, I developed a responsive portfolio project to showcase my web development expertise.
-                                </p>
-                            </div>
-                        </div>
-
-                        
-
-                    </div>
-
-                </div>
-
-                <div class="skills">
-                    <h3 class="info__title">Skills</h3>
-
-                    <div class="skills__content grid">
-
-                        <div class="skills__box">
-                            <i class="ri-html5-line"></i><br>
-                            <span class="skills__name">HTML</span>
-                        </div>
-
-                        <div class="skills__box">
-                            <i class="ri-css3-line"></i><br>
-                            <span class="skills__name">CSS</span>
-                        </div>
-
-                        <div class="skills__box">
-                            <i class="ri-javascript-line"></i><br>
-                            <span class="skills__name">JavaScript</span>
-                        </div>
-
-                        <div class="skills__box">
-                            <i class="ri-database-2-line"></i><br>
-                            <span class="skills__name">MySQL</span>
-                        </div>
-                        
-                        <div class="skills__box">
-                            <i class="ri-github-line"></i><br>
-                            <span class="skills__name">GitHub</span>
-                        </div>
-
-                        <div class="skills__box">
-                            <i class="ri-ubuntu-line"></i><br>
-                            <span class="skills__name">Linux</span>
-                        </div> 
-
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ============================== services  =================================== -->
-        <section class="services section" id="services">
-            <h2 class="section__title">SERVICES</h2>
-
-            <div class="services__container container grid">
-
-                <article class="services__card">
-                    <i class="ri-code-box-line services__icon"></i>
-                    <h3 class="services__title">Web Development</h3>
-                    <p class="services__description">
-                        I provide robust web development services to bring your ideas to life. 
-                        From conceptualization to deployment, I build scalable, high-performance websites and applications using the latest technologies. 
-                        My solutions are tailored to meet your specific needs and ensure a seamless user experience.
-                    </p>
-                </article>
-
-                <article class="services__card">
-                    <i class="ri-pencil-ruler-2-line services__icon"></i>
-                    <h3 class="services__title">Web Design</h3>
-                    <p class="services__description">
-                        Transform your vision into a stunning and intuitive web design. 
-                        I specialize in creating visually appealing and user-friendly interfaces that reflect your brand's identity. 
-                        My designs focus on usability, aesthetics, and the latest design trends to engage your audience and enhance your online presence.
-                    </p>
-                </article>
-
-                <article class="services__card">
-                    <i class="ri-layout-2-line services__icon"></i>
-                    <h3 class="services__title">Responsive Web Design</h3>
-                    <p class="services__description">
-                        Ensure your website looks and functions perfectly on any device with my responsive web design services. 
-                        I create websites that adapt to different screen sizes and resolutions, providing a consistent and optimal user experience across desktops, tablets, and mobile devices. 
-                        Stay ahead in the mobile-first world with a site that works everywhere.
-                    </p>
-                </article>
-
-                <article class="services__card">
-                    <i class="ri-computer-line services__icon"></i>
-                    <h3 class="services__title">PC Building</h3>
-                    <p class="services__description">
-                        Build your dream PC with my expert PC building services. 
-                        Whether you need a high-performance gaming rig, a workstation for professional applications, or a custom setup for your unique needs, 
-                        I provide personalized consulting and assembly services. I ensure your PC is optimized for performance, reliability, and future upgrades.
-                    </p>
-                </article>
-
-            </div>
-        </section>
-
-        <!-- ============================== contact =================================== -->
-        <section class="contact section" id="contact">
-            <h2 class="section__title">CONTACT ME</h2>
-
-            <div class="contact__container container grid">
-                <form action="" class="contact__form grid" id="contact-form">
-                    <div class="contact__group grid">
-                        <input type="text" name="user_name" placeholder="Your Name" class="contact__input" required>
-                        <input type="email" name="user_email" placeholder="E-mail ID" class="contact__input" required>
-                    </div>
-                    <textarea name="user_message" id="" placeholder="Message" class="contact__input contact__area" required></textarea>
-
-                    <button type="submit" class="button conact__button">Send Message</button>
-
-                    <p class="contact__message" id="contact-message"></p>
-                </form>
-
-                <div class="contact__social grid">
-
-                    <a href="https://whatsapp.com/channel/0029VaADx8EHwXb5qWrL4D1c" class="contact__social-link">
-                        <i class="ri-whatsapp-line"></i>
-                        <span>whatsapp channel</span>
-                    </a>
-
-                    <a href="mailto:gs.gopishankar.v@gmail.com" class="contact__social-link">
-                        <i class="ri-mail-line"></i>
-                        <span>E-mail</span>
-                    </a>
-
-                    <a href="https://www.linkedin.com/in/gopi-shankar-v" class="contact__social-link">
-                        <i class="ri-linkedin-line"></i>
-                        <span>LinkedIn</span>
-                    </a>
-
-                    <a href="https://www.github.com/Irudium-GS" class="contact__social-link">
-                        <i class="ri-github-line"></i>
-                        <span>GitHub</span>
-                    </a>
-                </div>
-            </div>
-        </section>
-    </main>
-    <!-- ============================== footer =================================== -->
-    <footer class="footer">
-        <div class="footer__container container grid">
-            <ul class="footer__links">
-                <li><a href="#home" class="footer__link">Home</a></li>
-                <li><a href="#work" class="footer__link">Work</a></li>
-                <li><a href="#info" class="footer__link">Info</a></li>
-            </ul>
-
-            <span class="footer__copy">
-                &#169; All Rights Reserved By Irudium-95
-            </span>
-        </div>
-    </footer>
-
-    <!-- ============================== Scroll Up =================================== -->
-    <a href="#" class="scrollup" id="scroll-up">
-        <i class="ri-arrow-up-line"></i>
-    </a>
     
-    <!-- ==================== Email JS ============================================ -->
-    <script src="./js/scrollreveal.min.js"></script>
-    <!-- ==================== Email JS ============================================ -->
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <div class="container">
+        <div class="ledger">
+            <h2>Income Expense Tracker</h2>
+            <h4>Your Balance</h4>
+            <h1 id="balance">₹ 0.00</h1>
 
-    <!-- ==================== main JS ============================================ -->
-    <script src="./js/script.js"></script>
+            <div class="inc-exp-container">
+                <div class="inc">
+                    <h4>Income</h4>
+                    <p id="inc-amt" class="amt plus">₹ 0.00</p>
+                </div>
+                <div class="exp">
+                    <h4>Expense</h4>
+                    <p id="exp-amt" class="exp minus">₹ 0.00</p>
+                </div>
+            </div>
+
+            <form action="#" id="form">
+                <div class="form-control">
+                    <label for="desc">Description</label>
+                    <input type="text" name="desc" id="desc" placeholder="Enter Description">
+                </div>
+                <div class="form-control">
+                    <label for="amount">Amount</label>
+                    <input type="number" name="amount" id="amount" placeholder="Amount">
+                </div>
+                <button class="btn" type="submit">Add Transaction</button>
+            </form>
+        </div>
+
+        <div class="transaction">
+            <h3>Transaction Details</h3>
+
+            <ul class="trans" id="trans">
+                
+            </ul>
+        </div>
+
+    </div>
+    <script src="JS/text.js"></script>
 </body>
 </html>
+
