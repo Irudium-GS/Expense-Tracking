@@ -13,7 +13,6 @@ const dummyData = [
     { id:4, description: "Camera", amount: -150},
     { id:5, description: "Petrol", amount: -250},
 ];
-
 let transactions = dummyData;
 */
 const localStorageTrans = JSON.parse(localStorage.getItem("trans"));
